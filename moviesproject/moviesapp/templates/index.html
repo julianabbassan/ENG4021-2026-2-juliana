@@ -13,85 +13,17 @@
     </div>
 
     <div class="catalog">
-        <div class="card" style="width: 18rem;">
-            <img style="width: 100px;" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23611_p_v8_ah.jpg" class="card-img-top">
-            <div>
-                <h5>Card title</h5>
-                <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-        </div>
 
+        {% for movie in movies %}
         <div class="card" style="width: 18rem;">
-            <img style="width: 100px;" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23611_p_v8_ah.jpg" class="card-img-top">
+            <img style="width: 100px;" src="{{movie.Poster}}" class="card-img-top">
             <div>
-                <h5>Card title</h5>
+                <h5>{{movie.Title}}</h5>
                 <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
             </div>
         </div>
+        {% endfor %}
 
-        <div class="card" style="width: 18rem;">
-            <img style="width: 100px;" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23611_p_v8_ah.jpg" class="card-img-top">
-            <div>
-                <h5>Card title</h5>
-                <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img style="width: 100px;" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23611_p_v8_ah.jpg" class="card-img-top">
-            <div>
-                <h5>Card title</h5>
-                <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img style="width: 100px;" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23611_p_v8_ah.jpg" class="card-img-top">
-            <div>
-                <h5>Card title</h5>
-                <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img style="width: 100px;" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23611_p_v8_ah.jpg" class="card-img-top">
-            <div>
-                <h5>Card title</h5>
-                <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img style="width: 100px;" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23611_p_v8_ah.jpg" class="card-img-top">
-            <div>
-                <h5>Card title</h5>
-                <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img style="width: 100px;" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23611_p_v8_ah.jpg" class="card-img-top">
-            <div>
-                <h5>Card title</h5>
-                <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img style="width: 100px;" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23611_p_v8_ah.jpg" class="card-img-top">
-            <div>
-                <h5>Card title</h5>
-                <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img style="width: 100px;" src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23611_p_v8_ah.jpg" class="card-img-top">
-            <div>
-                <h5>Card title</h5>
-                <p>Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            </div>
-        </div>
     </div>
 </body>
 </html>
