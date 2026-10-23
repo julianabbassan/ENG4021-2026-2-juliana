@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Movie
 import requests 
 
 # Create your views here.
@@ -10,3 +11,7 @@ def home(request):
         "movies": movies
     }
     return render(request, "index.html", context)
+
+def home2(request):
+    movies = Movie.objects.all()
+    return render(request,"home.html",{"movies": movies})
