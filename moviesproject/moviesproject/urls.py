@@ -20,5 +20,8 @@ from moviesapp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home2)
+    path('', home2),
+    path('users/', create_user),
+    path('users/login/', login_user),
+    path('users/logout/', logout_user),
 ]

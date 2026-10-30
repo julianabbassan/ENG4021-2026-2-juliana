@@ -126,3 +126,7 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+
+# Para onde o @login_required manda quem não está logado
+LOGIN_URL = '/users/login/'
